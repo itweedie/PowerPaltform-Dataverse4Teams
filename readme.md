@@ -47,7 +47,7 @@ To add this repository as a submodule to another repository:
 
 1. Navigate to the root directory of your target repository.
 2. Run the following command to add the submodule:
-    `git submodule add https://github.com/itweedie/PowerPaltform-Dataverse4Teams.git .scripts/dataverse4Teams`
+    `git submodule add https://github.com/itweedie/PowerPaltform-Dataverse4Teams.git scripts/dataverse4Teams`
 3. Initialize and update the submodule:
     `git submodule update --init --recursive`
 
