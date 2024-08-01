@@ -31,9 +31,9 @@ This script imports a solution into the Power Platform environment and publishes
 .\pipelineScripts\releaseToTarget.ps1 -solutionFilePath "path\to\your\solution.zip" -environmentName "YourEnvironmentName"
 ```
 
-## Mermaid Diagram
+## Diagram
 ```mermaid
-graph TD
+graph LR
     A[Start] --> B[Export Solution]
     B --> C[Unpack Solution]
     C --> D[Import Solution]
